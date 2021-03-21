@@ -15,7 +15,7 @@ En la Segunda Guerra Mundial se utilizaron computadoras analogicas mecanicas, or
 Computadoras simples son lo suficientemente pequeñas para residir en los dispositivos moviles. Las computadoras portatiles, tales como tabletas, netbooks, notebooks, ultrabooks, pueden ser alimentadas por pequeñas bateri­as. Las computadoras personales en sus diversas formas son iconos de la llamada era de la informacion y son lo que la mayori­a de la gente considera como Â«computadoraÂ». Sin embargo, los sistemas embebidos tambien constituyen computadoras, y se encuentran en muchos dispositivos actuales, tales como reproductores MP4, telefonos celulares, aviones de combate, juguetes, robots industriales, etc.
 
 
-indice
+Indice
 1	Historia
 1.1	Cronologi­a
 2	Componentes
