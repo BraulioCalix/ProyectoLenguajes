@@ -12,6 +12,7 @@ import Data.ByteString.Lazy.Char8 (ByteString)
 
 
 
+
 obtenerCantidad::[(Int,[Int])]->Int
 obtenerCantidad = length
 
@@ -20,12 +21,9 @@ obtenerCantidad = length
 main :: IO ()
 main = do
     file <- B.readFile "Prueba.txt"
-    print "Ingrese 3 palabras para verificar si estan en el documento"
-    otras <- sequence [B.getLine, B.getLine, B.getLine]
-    let tuples = indicesOfAny otras file
-    print "Estas son las tuplas dentro del archivo"
-    print tuples
-    print "Esta es la funcion"
+    palabras <- sequence [B.getLine]
+    let tuples = indicesOfAny palabras file
+    print "Esta la cantidad de veces que aparece la palabra" 
     print $ obtenerCantidad tuples
 
 
